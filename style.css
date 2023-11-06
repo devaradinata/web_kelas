@@ -1,0 +1,17 @@
+.navbar {
+  background: rgba(0, 0, 0, 0.2);
+}
+.jumbotron {
+  z-index: 2;
+  padding-top: 150px;
+}
+.bg-jumbotron {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url("assets/Genieciel.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 97vh;
+  background-size: cover;
+}
+.offcanvas-body {
+  background: rgba(0, 0, 0, 0.147);
+}
