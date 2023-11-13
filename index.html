@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Genieciel</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light position-absolute w-100 p-3">
+      <div class="container">
+        <a class="navbar-brand text-light fw-bold fs-3" href="#">The Genieciel</a>
+        <button class="btn btn-light border-0 d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas-header">
+            <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body bg-transparent">
+            <a class="nav-link active" aria-current="page" href="home">Home</a>
+            <a class="nav-link" href="#">Perangkat</a>
+            <a class="nav-link" href="#">Anggota</a>
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Galery</a>
+            <a class="nav-link text-light fw-bold" href="#">Prestasi</a>
+          </div>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto gap-3 fs-6">
+            <a class="nav-link active text-light fw-bold" aria-current="page" href="#">Home</a>
+            <a class="nav-link text-light fw-bold" href="#">Perangkat</a>
+            <a class="nav-link text-light fw-bold" href="#">Anggota</a>
+            <a class="nav-link disabled text-light fw-bold" href="#" tabindex="-1" aria-disabled="true">Galery</a>
+            <a class="nav-link text-light fw-bold" href="#">Prestasi</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Jumbotron -->
+    <section class="jumbotron text-center bg-jumbotron">
+      <img src="assets/Logo.jpg" alt="Genieciel" width="200" class="rounded-circle img-thumbnail mt-5" />
+      <h1 class="display-4 text-light fw-normal">The Genieciel</h1>
+      <p class="lead text-light fw-normal">XI Rekayasa Perangkat Lunak 1</p>
+    </section>
+  </body>
+</html>
